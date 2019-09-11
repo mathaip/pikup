@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 1</title>
+</head>
+<body>
+
+<h1 id="title">
+
+	Hello world
+	<div>
+		<input type="text" id="inputtext1">
+	
+		<button onclick="changeH1()" type="submit" class="button1">
+			
+		
+			submit
+	
+		</button>
+	</div>
+
+</h1>
+
+<script>
+	
+	
+
+	function changeH1() {
+		var input = document.getElementById('inputtext1').value;	
+		document.getElementById('title').replaceWith(input);
+
+}
+</script>
+
+</body>
+</html>
